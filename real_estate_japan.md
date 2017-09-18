@@ -1,7 +1,7 @@
 # 不動産ジャパンの検索インタフェース
 
 ## URIパラメータ
-"http://www.fudousan.or.jp/system/?"に続けて設定する。
+"`http://www.fudousan.or.jp/system/?`"に続けて設定する。
 
 ### act=${VALUE}
 画面モード
@@ -275,9 +275,9 @@ d337 | 二世帯向き
 
 ## Example
 - 東京都北区で家賃7万以上9万未満のマンション、20平米以上の1R・1K・1DK、バス・トイレ別でフローリングの物件を専有面積が広い順で50件ずつリスト表示
-	- http://www.fudousan.or.jp/system/?act=l&type=31&tm=1&stype=d&pref=13&city[]=13117&rl=70&rh=90&asl=20&ash=h&md[]=1&op[]=bt&op[]=fl&s=auh&n=50
+	- `http://www.fudousan.or.jp/system/?act=l&type=31&tm=1&stype=d&pref=13&city[]=13117&rl=70&rh=90&asl=20&ash=h&md[]=1&op[]=bt&op[]=fl&s=auh&n=50`
 - 東京駅の賃貸マンション・アパートをリスト表示
-	- http://www.fudousan.or.jp/system/?act=l&type=31&stype=d&pref=13&line[]=2172&eki[]=2172010
+	- `http://www.fudousan.or.jp/system/?act=l&type=31&stype=d&pref=13&line[]=2172&eki[]=2172010`
 - 東京のある物件の詳細表示
-	- http://www.fudousan.or.jp/system/?act=d&type=31&bid=00000000&org=ZT
+	- `http://www.fudousan.or.jp/system/?act=d&type=31&bid=00000000&org=ZT`
 
